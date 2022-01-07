@@ -1,5 +1,6 @@
 package com.usp.medicare.dto;
 
+import java.io.Serializable;
 import java.util.Date;
 
 import org.springframework.lang.NonNull;
@@ -14,7 +15,7 @@ import lombok.Setter;
  *
  */
 @NoArgsConstructor @Getter @Setter 
-public class OrderDTO {
+public class OrderDTO implements Serializable{
 	/**
 	 * 
 	 */

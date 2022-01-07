@@ -27,9 +27,9 @@ public class AppointmentDTO implements Serializable{
 	private String patientPhone;
 	
 	//@DateTimeFormat(iso=ISO.DATE)
-	private LocalDate appointmentDate;
+	private String appointmentDate;
 	
-	private LocalDateTime appointmentTime;
+	private String appointmentTime;
 	
 	private String appointmentStatus;
 	
