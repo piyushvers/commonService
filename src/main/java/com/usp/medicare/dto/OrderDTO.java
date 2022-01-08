@@ -1,9 +1,8 @@
 package com.usp.medicare.dto;
 
 import java.io.Serializable;
+import java.math.BigInteger;
 import java.util.Date;
-
-import org.springframework.lang.NonNull;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -28,4 +27,5 @@ public class OrderDTO implements Serializable{
 	private String keyId;
 	private String keySecret;
 	private String status;
+	private BigInteger orderTxID;
 }
