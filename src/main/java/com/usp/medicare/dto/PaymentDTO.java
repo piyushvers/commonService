@@ -16,6 +16,6 @@ public class PaymentDTO implements Serializable{
 	private String name;
 	private String email;
 	private String mobNum;
-	private String amount;
+	private Integer amount;
 
 }

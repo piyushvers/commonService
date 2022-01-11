@@ -28,4 +28,21 @@ public class OrderDTO implements Serializable{
 	private String keySecret;
 	private String status;
 	private BigInteger orderTxID;
+	private String paymentId;
+	private BigInteger appointmentId;
+	private String signature;
+	private String code;
+	private String description;
+	private String source;
+	private String step;
+	private String reason;
+	private String currency;
+	private String name;
+	private String emailId;
+	private String mobileNumber;
+	private String reqDescription;
+	private Integer userId;
+	private String createBy;
+	private String updatedBy;	
+	private String paymentDesc;
 }
