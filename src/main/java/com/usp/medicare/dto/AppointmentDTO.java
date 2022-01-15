@@ -1,8 +1,6 @@
 package com.usp.medicare.dto;
 
 import java.io.Serializable;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -16,6 +14,11 @@ import lombok.Setter;
 @NoArgsConstructor @Getter @Setter 
 public class AppointmentDTO implements Serializable{
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	private String clinicType;
 	
 	private String doctorName;

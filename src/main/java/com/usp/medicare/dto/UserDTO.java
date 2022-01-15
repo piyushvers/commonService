@@ -3,10 +3,9 @@ package com.usp.medicare.dto;
 import java.io.Serializable;
 import java.util.Date;
 
-import org.springframework.lang.NonNull;
-
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.NonNull;
 import lombok.Setter;
 
 /**

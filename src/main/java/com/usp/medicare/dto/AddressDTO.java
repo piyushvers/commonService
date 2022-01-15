@@ -15,6 +15,10 @@ import lombok.Setter;
 @NoArgsConstructor @Getter @Setter 
 public class AddressDTO implements Serializable{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String userID;
 	private String addressLine1;
 	private String addressLine2;

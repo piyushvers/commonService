@@ -9,6 +9,10 @@ import lombok.Setter;
 @NoArgsConstructor @Getter @Setter 
 public class AccountDTO implements Serializable{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String firstName;
 	private String lastName;
 	private String fullName;
