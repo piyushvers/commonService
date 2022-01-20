@@ -18,5 +18,6 @@ public class SMSDto {
 	private String errorCode;
 	private String message;
 	private String languageCode;
+	private Boolean isErrorInd;
 
 }
