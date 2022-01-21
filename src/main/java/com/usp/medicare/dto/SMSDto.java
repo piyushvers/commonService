@@ -19,5 +19,8 @@ public class SMSDto {
 	private String message;
 	private String languageCode;
 	private Boolean isErrorInd;
+	
+	// Field to check if OTP is validated
+	private Boolean isOtpValidated;
 
 }
