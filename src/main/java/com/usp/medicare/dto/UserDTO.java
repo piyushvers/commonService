@@ -1,11 +1,11 @@
 package com.usp.medicare.dto;
 
 import java.io.Serializable;
+import java.math.BigInteger;
 import java.util.Date;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.NonNull;
 import lombok.Setter;
 
 /**
@@ -23,22 +23,27 @@ public class UserDTO implements Serializable{
 
 	private static final long OTP_VALID_DURATION = 5 * 60 * 1000; // 5 minutes
 	
-	@NonNull
+	
+	private BigInteger userId;
+	private String userName;
+	private String firstName;
+	private String lastName;
+	private String dob;
+	private String bloodGroup;
+	private String email;
+	private String mobile;
+	private String address;
+	private String city;
+	private String state;
+	private String zipCode;
+	private String country;
+	
+	
 	private String oneTimePassword;
 	
-	@NonNull
 	private Date otpRequestedTime;
-	private String email;
-	private String userName;
 	private String password;
 	
-	@NonNull
-	private String mobNumber;
-	private String userId;
+	private Boolean isOTPRequired;
 	
-	
-	
-	public boolean isOTPRequired() {
-		return true;
-	}
 }
