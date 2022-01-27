@@ -31,11 +31,11 @@ public class MailUtil {
 		MimeMessageHelper helper = new MimeMessageHelper(message);
 
 		helper.setFrom(ApplicationConstants.MAIL_FROM, ApplicationConstants.MAIL_FROM_PERSON);
-		helper.setTo(user.getEmail());
+		//helper.setTo(user.getEmail());
 
 		String subject = ApplicationConstants.MAIL_SUBJECT;
 
-		String content = "<p>Hello " + user.getEmail() + "</p>"
+		String content = "<p>Hello " + "user.getEmail()" + "</p>"
 				+ "<p>For security reason, you're required to use the following " + "One Time Password to login:</p>"
 				+ "<p><b>" + otp + "</b></p>" + "<br>" + "<p>Note: this OTP is set to expire in 5 minutes.</p>";
 
