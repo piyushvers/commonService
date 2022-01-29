@@ -1,5 +1,6 @@
 package com.usp.medicare.dto;
 
+import java.math.BigInteger;
 import java.util.Map;
 
 import lombok.Getter;
@@ -7,12 +8,17 @@ import lombok.Setter;
 
 @Getter @Setter
 public class UserInfoDTO {
+	
+	// ID of user who this information belong to
+	private BigInteger userId;
 
-	private String userName;
+	//private String userName;
 	
 	private String firstName;
 	
 	private String lastName;
+	
+	private String userImage;
 	
 	private String dob;
 	
