@@ -41,4 +41,7 @@ public class UserInfoDTO {
 	private String zipCode;
 	
 	private String country;
+	
+	private DmsDTO dmsDTO;
+	
 }
