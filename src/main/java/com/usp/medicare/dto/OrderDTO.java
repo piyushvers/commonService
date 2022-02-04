@@ -1,8 +1,10 @@
 package com.usp.medicare.dto;
 
-import java.io.Serializable;
 import java.math.BigInteger;
-import java.util.Date;
+import java.time.LocalDate;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -14,13 +16,14 @@ import lombok.Setter;
  *
  */
 @NoArgsConstructor @Getter @Setter 
-public class OrderDTO implements Serializable{
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class OrderDTO {
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
 	
-	private Date orderDate;
+    private String orderDate;
 	private Integer amount;
 	private String orderId;
 	private String receipt;
