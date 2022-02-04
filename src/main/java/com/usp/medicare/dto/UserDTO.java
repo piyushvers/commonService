@@ -24,6 +24,8 @@ public class UserDTO{
 	private String mobile;
 	private String isActive;
 	private String isExisting;
+	private String otp;
+	private boolean isNew;
 	/*
 	 * private String address; private String city; private String state; private
 	 * String zipCode; private String country;

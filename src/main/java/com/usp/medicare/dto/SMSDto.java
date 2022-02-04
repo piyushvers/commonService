@@ -22,5 +22,6 @@ public class SMSDto {
 	
 	// Field to check if OTP is validated
 	private Boolean isOtpValidated;
+	private String userId;
 
 }
