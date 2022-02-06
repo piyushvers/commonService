@@ -11,6 +11,9 @@ public class UserInfoDTO {
 	
 	// ID of user who this information belong to
 	private BigInteger userId;
+	
+	// UserInfo ID
+	private BigInteger id;
 
 	//private String userName;
 	
