@@ -1,6 +1,13 @@
 package com.usp.medicare.dto;
 
 import java.io.Serializable;
+import java.math.BigInteger;
+import java.util.Date;
+
+import org.springframework.format.annotation.DateTimeFormat;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -19,9 +26,15 @@ public class AppointmentDTO implements Serializable{
 	 */
 	private static final long serialVersionUID = 1L;
 
-	private String clinicType;
+	private BigInteger appointmentId;
 	
-	private String doctorName;
+	private BigInteger clinicId;
+	
+	private BigInteger doctorId;
+	
+	private BigInteger userId;
+	
+	private BigInteger pricePaid;
 	
 	private String patientName;
 	
@@ -29,16 +42,26 @@ public class AppointmentDTO implements Serializable{
 	
 	private String patientPhone;
 	
-	//@DateTimeFormat(iso=ISO.DATE)
 	private String appointmentDate;
 	
 	private String appointmentTime;
-	
+
 	private String appointmentStatus;
 	
-	private String pricePaid;
+
+	private String clinicType;
 	
-	private String docImage;
+	private String doctorName;
 	
-	private String docId;
+	
+	
+	private String errorCode;
+	
+	private String message;
+	
+	private String languageCode;
+	
+	private Boolean isErrorInd;
+	
+	
 }

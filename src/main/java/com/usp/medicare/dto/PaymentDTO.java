@@ -1,5 +1,7 @@
 package com.usp.medicare.dto;
 
+import java.math.BigInteger;
+
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import lombok.Getter;
@@ -16,5 +18,5 @@ public class PaymentDTO {
 	private String email;
 	private String mobNum;
 	private Integer amount;
-
+	private BigInteger appointmentId;
 }
