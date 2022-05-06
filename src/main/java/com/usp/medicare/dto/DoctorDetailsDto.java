@@ -21,5 +21,6 @@ public class DoctorDetailsDto {
 	private List<DoctorAmrDto> doctorRewards;
 	private List<DoctorAmrDto> doctorMemberShip;
 	private List<DoctorAmrDto> doctorRegistration;
-	
+	private List<DoctorEducationDto> doctorEducation;
+
 }
