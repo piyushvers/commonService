@@ -14,6 +14,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @Builder
 public class DoctorDetailsDto {
+	private DoctorDto doctordetails;
 	private DoctorInfoDto doctorInfo;
 	private List<DoctorExpDto> doctorExp;
 	private List<DoctorServicesDto> doctorServices;
