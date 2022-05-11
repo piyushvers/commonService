@@ -2,8 +2,6 @@ package com.usp.medicare.dto;
 
 import java.math.BigInteger;
 
-import javax.persistence.Column;
-
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
