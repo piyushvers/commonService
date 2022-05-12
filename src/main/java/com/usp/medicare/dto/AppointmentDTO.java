@@ -28,6 +28,8 @@ public class AppointmentDTO implements Serializable{
 
 	private BigInteger appointmentId;
 	
+	private Integer slotId;
+	
 	private BigInteger clinicId;
 	
 	private BigInteger doctorId;
